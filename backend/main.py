@@ -34,7 +34,7 @@ def get_db_connection():
 
 @app.route('/')
 def home():
-    return jsonify({"message": "API de Registros de Marca - Signa IP"})
+    return jsonify({"message": "API de Registros de Marca - Signa"})
 
 @app.route('/marcas/', methods=['GET'])
 def listar_marcas():

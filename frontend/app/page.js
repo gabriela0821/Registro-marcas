@@ -163,7 +163,7 @@ export default function MarcasApp() {
           <div className="flex justify-between items-center">
             <div>
               <h1 className="text-3xl font-bold">Registros de Marca</h1>
-              <p className="text-blue-100 mt-1">Sistema de gestión de marcas - Signa IP</p>
+              <p className="text-blue-100 mt-1">Sistema de gestión de marcas - Signa</p>
             </div>
             <button
               onClick={() => setShowForm(!showForm)}
