@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'registro-marcas-production.up.railway.app';
 
 export default function MarcasApp() {
   const [marcas, setMarcas] = useState([]);
